@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch ./src/index.ts",
+    "prisma": "prisma"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "prisma": "^4.6.1",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "fastify": "^4.10.0"
+  }
+}
